@@ -1,0 +1,2 @@
+# kicadlib
+kicad parts libraries
