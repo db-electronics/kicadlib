@@ -5,4 +5,12 @@ D COLECOVISION BOARD EDGE
 K COLECOVISION BOARD EDGE
 $ENDCMP
 #
+$CMP SNES-CONN
+D SNES Cartridge Connector
+$ENDCMP
+#
+$CMP umd-conn
+D UMD Cartridge Interface Connector
+$ENDCMP
+#
 #End Doc Library
