@@ -1,9 +1,9 @@
-(module TSSOP-14 (layer F.Cu) (tedit 5A62291A)
+(module TSSOP-14 (layer F.Cu) (tedit 5A68A716)
   (solder_mask_margin 0.1)
   (fp_text reference REF** (at 0.8 -1.3) (layer F.SilkS)
     (effects (font (size 0.889 0.889) (thickness 0.1778)))
   )
-  (fp_text value TSSOP-14 (at 2.4 -2.7) (layer F.Fab)
+  (fp_text value TSSOP-14 (at 2.4 -2.7) (layer F.Fab) hide
     (effects (font (size 0.889 0.889) (thickness 0.1778)))
   )
   (fp_line (start 2.6 -0.4) (end 1.3 -0.4) (layer F.SilkS) (width 0.1778))
