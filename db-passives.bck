@@ -9,6 +9,10 @@ $CMP CP
 D polarized capacitor
 $ENDCMP
 #
+$CMP CP_1206
+D polarized capacitor
+$ENDCMP
+#
 $CMP C_0603
 D 0603 Capacitor
 $ENDCMP
