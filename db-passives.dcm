@@ -9,9 +9,17 @@ $CMP CP
 D polarized capacitor
 $ENDCMP
 #
+$CMP C_0603
+D 0603 Capacitor
+$ENDCMP
+#
 $CMP R
 D Resistor
 K Resistor
+$ENDCMP
+#
+$CMP R_0603
+D 0603 Resistor
 $ENDCMP
 #
 #End Doc Library

@@ -1,15 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 220uF_10V
-D CAP ALUM 220UF 20% 10V SMD
-K 493-6210-1-ND
-$ENDCMP
-#
-$CMP 75.0
-D RES 75.0 OHM 1/10W 1% 0603 SMD
-K P75.0HCT-ND
-$ENDCMP
-#
 $CMP C
 D Unpolarized capacitor
 K capacitor
@@ -19,9 +9,17 @@ $CMP CP
 D polarized capacitor
 $ENDCMP
 #
+$CMP C_0603
+D 0603 Capacitor
+$ENDCMP
+#
 $CMP R
 D Resistor
 K Resistor
+$ENDCMP
+#
+$CMP R_0603
+D 0603 Resistor
 $ENDCMP
 #
 #End Doc Library
