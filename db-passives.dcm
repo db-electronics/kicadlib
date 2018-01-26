@@ -10,11 +10,18 @@ D polarized capacitor
 $ENDCMP
 #
 $CMP CP_1206
-D Polarized Capacitor, 1206
+D 1206 Polarized Capacitor
+K 1206 Polarized Capacitor
 $ENDCMP
 #
 $CMP C_0603
 D 0603 Capacitor
+K 0603 Capacitor
+$ENDCMP
+#
+$CMP C_0805
+D 0805 Capacitor
+K 0805 Capacitor
 $ENDCMP
 #
 $CMP R
@@ -24,6 +31,7 @@ $ENDCMP
 #
 $CMP R_0603
 D 0603 Resistor
+K 0603 Resistor
 $ENDCMP
 #
 #End Doc Library

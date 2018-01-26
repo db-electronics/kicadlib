@@ -16,4 +16,14 @@ $CMP TP50
 D 0.05" x 0.05" Test Point
 $ENDCMP
 #
+$CMP TP_50
+D Test Point 0.05" x 0.05"
+K Test Point
+$ENDCMP
+#
+$CMP TP_50x100
+D Test Point 0.05" x 0.10"
+K Test Point
+$ENDCMP
+#
 #End Doc Library
