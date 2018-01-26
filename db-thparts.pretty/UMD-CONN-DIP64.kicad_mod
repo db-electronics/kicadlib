@@ -1,6 +1,7 @@
-(module UMD-CONN-DIP64 (layer F.Cu) (tedit 5A5E2304)
+(module UMD-CONN-DIP64 (layer F.Cu) (tedit 5A6B7F37)
+  (solder_mask_margin 0.1016)
   (fp_text reference REF** (at 2.54 -3.175) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
+    (effects (font (size 0.889 0.889) (thickness 0.2032)))
   )
   (fp_text value UMD-CONN-DIP64 (at 7.62 -5) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
