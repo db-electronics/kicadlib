@@ -1,9 +1,9 @@
-(module MD-90SM (layer F.Cu) (tedit 5A689D4A)
+(module MD-90SM (layer F.Cu) (tedit 5A6BE178)
   (solder_mask_margin 0.1016)
-  (fp_text reference REF** (at -3.556 3.556) (layer F.SilkS)
-    (effects (font (size 0.889 0.889) (thickness 0.1778)))
+  (fp_text reference REF** (at -5.588 3.302) (layer F.SilkS)
+    (effects (font (size 0.889 0.889) (thickness 0.2032)))
   )
-  (fp_text value MD-90SM (at -2.54 5.08) (layer F.Fab) hide
+  (fp_text value MD-90SM (at -4.318 4.572) (layer F.Fab) hide
     (effects (font (size 0.889 0.889) (thickness 0.1778)))
   )
   (fp_line (start 7.366 -10.922) (end 7.366 -8.636) (layer F.SilkS) (width 0.254))

@@ -1,9 +1,9 @@
-(module SMD-6.6x6.6 (layer F.Cu) (tedit 5A68E845)
+(module SMD-6.6x6.6 (layer F.Cu) (tedit 5A6BE195)
   (solder_mask_margin 0.1016)
-  (fp_text reference REF** (at -1.778 -4.064) (layer F.SilkS)
-    (effects (font (size 0.889 0.889) (thickness 0.1778)))
+  (fp_text reference REF** (at 1.524 -4.064) (layer F.SilkS)
+    (effects (font (size 0.889 0.889) (thickness 0.2032)))
   )
-  (fp_text value SMD-6.6x6.6 (at 0.762 -5.334) (layer F.Fab) hide
+  (fp_text value SMD-6.6x6.6 (at 4.064 -5.334) (layer F.Fab) hide
     (effects (font (size 0.889 0.889) (thickness 0.1778)))
   )
   (fp_line (start 6.25 2) (end 5 3.25) (layer F.SilkS) (width 0.254))
