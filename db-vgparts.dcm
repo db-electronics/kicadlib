@@ -9,6 +9,10 @@ $CMP SNES-CONN
 D SNES Cartridge Connector
 $ENDCMP
 #
+$CMP SNES-EDGE
+D SNES Cartridge Connector
+$ENDCMP
+#
 $CMP UMD-CONN
 D UMD Cartridge Interface Connector
 K UMD
