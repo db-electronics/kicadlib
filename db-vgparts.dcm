@@ -10,7 +10,7 @@ D SNES Cartridge Connector
 $ENDCMP
 #
 $CMP SNES-EDGE
-D SNES Cartridge Connector
+D SNES PCB Edge - No Exp
 $ENDCMP
 #
 $CMP UMD-CONN

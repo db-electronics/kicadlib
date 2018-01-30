@@ -12,10 +12,6 @@ $CMP MD-90SM
 D CONN MINI-DIN RECEPT SHIELD 9POS
 $ENDCMP
 #
-$CMP TP50
-D 0.05" x 0.05" Test Point
-$ENDCMP
-#
 $CMP TP_50
 D Test Point 0.05" x 0.05"
 K Test Point

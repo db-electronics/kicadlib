@@ -12,6 +12,10 @@ $CMP MD-90SM
 D CONN MINI-DIN RECEPT SHIELD 9POS
 $ENDCMP
 #
+$CMP PIC_ICSP
+D Microchip Pickit 3 Programming Header
+$ENDCMP
+#
 $CMP TP_50
 D Test Point 0.05" x 0.05"
 K Test Point
