@@ -1,5 +1,6 @@
 (module 0603 (layer F.Cu) (tedit 58AF474D)
   (tags 0603)
+  (solder_mask_margin 0.1016)
   (attr smd)
   (fp_text reference REF** (at 0.508 -1.27) (layer F.SilkS)
     (effects (font (size 0.889 0.889) (thickness 0.2032)))
