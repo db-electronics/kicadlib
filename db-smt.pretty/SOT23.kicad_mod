@@ -1,10 +1,11 @@
 (module SOT23 (layer F.Cu) (tedit 5A6BE25D)
   (descr SOT23)
+  (solder_mask_margin 0.1016)
   (attr smd)
-  (fp_text reference REF** (at 0.635 -2.54) (layer F.SilkS)
+  (fp_text reference D101 (at 2.54 -1.397) (layer F.SilkS)
     (effects (font (size 0.889 0.889) (thickness 0.2032)))
   )
-  (fp_text value SOT23 (at 1.27 2.54) (layer F.Fab) hide
+  (fp_text value BAT54A (at 1.27 2.54) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -1.1 -0.55) (end -1.1 0.55) (layer F.SilkS) (width 0.254))
