@@ -1,7 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP C64-CONN
-D C64 PCB Edge Connection
+D C64 44 Pos Edge Connector
 K C64 Commodore 64
 $ENDCMP
 #

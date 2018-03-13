@@ -1,9 +1,9 @@
-(module SSW-123 (layer F.Cu) (tedit 58AF521F)
+(module SSW-123 (layer F.Cu) (tedit 5AA81EFA)
   (solder_mask_margin 0.1016)
-  (fp_text reference REF** (at -6.35 -2.54) (layer F.SilkS)
-    (effects (font (size 0.889 0.889) (thickness 0.1524)))
+  (fp_text reference REF** (at 0.635 -2.794) (layer F.SilkS)
+    (effects (font (size 0.889 0.889) (thickness 0.2032)))
   )
-  (fp_text value SSW-123 (at -5.08 -3.81) (layer F.Fab) hide
+  (fp_text value SSW-123 (at 1.905 -4.064) (layer F.Fab) hide
     (effects (font (size 0.889 0.889) (thickness 0.1524)))
   )
   (pad 1 thru_hole circle (at 0 5.08) (size 1.5748 1.5748) (drill 1.016) (layers *.Cu *.Mask))

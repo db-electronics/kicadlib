@@ -1,8 +1,8 @@
-(module DIP-28-600MIL (layer F.Cu) (tedit 589CBEFC)
+(module DIP-28-600MIL (layer F.Cu) (tedit 5AA81E85)
   (fp_text reference REF** (at 3.048 -3.048) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
+    (effects (font (size 0.889 0.889) (thickness 0.2032)))
   )
-  (fp_text value DIP-28-600MIL (at 7.112 -4.572) (layer F.Fab)
+  (fp_text value DIP-28-600MIL (at 7.112 -4.572) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 8.128 -1.524) (end 14.224 -1.524) (layer F.SilkS) (width 0.15))

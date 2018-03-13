@@ -1,8 +1,8 @@
-(module SNES-CONN-EXP (layer F.Cu) (tedit 5A70D830)
-  (fp_text reference REF** (at -1.5 -8) (layer F.SilkS)
-    (effects (font (size 0.889 0.889) (thickness 0.1778)))
+(module SNES-CONN-EXP (layer F.Cu) (tedit 5AA81ED3)
+  (fp_text reference REF** (at -0.254 -6.096) (layer F.SilkS)
+    (effects (font (size 0.889 0.889) (thickness 0.2032)))
   )
-  (fp_text value SNES-CONN-EXP (at 2.5 -9.5) (layer F.Fab)
+  (fp_text value SNES-CONN-EXP (at 3.81 -7.366) (layer F.Fab) hide
     (effects (font (size 0.889 0.889) (thickness 0.1778)))
   )
   (fp_line (start -2 90.65) (end 7 90.65) (layer F.SilkS) (width 0.1778))

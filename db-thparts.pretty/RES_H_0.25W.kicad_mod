@@ -1,6 +1,6 @@
-(module RES_H_0.25W (layer F.Cu) (tedit 58AF4BDE)
+(module RES_H_0.25W (layer F.Cu) (tedit 5AA81EBC)
   (fp_text reference REF** (at 4 -2) (layer F.SilkS)
-    (effects (font (size 0.889 0.889) (thickness 0.1524)))
+    (effects (font (size 0.889 0.889) (thickness 0.2032)))
   )
   (fp_text value RES_H_0.25W (at 7 -4) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
