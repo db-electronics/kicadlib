@@ -28,8 +28,4 @@ D UMD Cartridge Interface Connector
 K UMD
 $ENDCMP
 #
-$CMP umd-conn
-D UMD Cartridge Interface Connector
-$ENDCMP
-#
 #End Doc Library
