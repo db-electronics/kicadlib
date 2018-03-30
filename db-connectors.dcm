@@ -16,6 +16,10 @@ $CMP PIC_ICSP
 D Microchip Pickit 3 Programming Header
 $ENDCMP
 #
+$CMP RCJ-2223
+D CONN RCA JACK MONO 3.2MM R/A
+$ENDCMP
+#
 $CMP TP_50
 D Test Point 0.05" x 0.05"
 K Test Point
