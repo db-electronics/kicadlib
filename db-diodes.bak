@@ -4,8 +4,8 @@ EESchema-LIBRARY Version 2.3
 # BAT54A
 #
 DEF BAT54A D 0 40 Y N 1 F N
-F0 "D" 25 125 60 H V C CNN
-F1 "BAT54A" 75 -275 60 H V C CNN
+F0 "D" 25 125 50 H V C CNN
+F1 "BAT54A" 75 -275 50 H V C CNN
 F2 "db-smt:SOT23" 300 325 60 H I C CNN
 F3 "https://www.fairchildsemi.com/datasheets/BA/BAT54.pdf" 1300 500 60 H I C CNN
 F4 "BAT54AFSCT-ND" 350 400 60 H I C CNN "Digikey"
