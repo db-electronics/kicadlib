@@ -40,4 +40,9 @@ D UMD Cartridge Interface Connector
 K UMD
 $ENDCMP
 #
+$CMP UMDv2-CONN
+D UMD Cartridge Interface Connector
+K UMD
+$ENDCMP
+#
 #End Doc Library
