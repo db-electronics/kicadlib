@@ -1,9 +1,9 @@
-(module SSOP-48 (layer F.Cu) (tedit 5AEDF071)
+(module BSSOP-48-7.50mm (layer F.Cu) (tedit 5B913DBC)
   (solder_mask_margin 0.1016)
   (fp_text reference REF** (at 3.2 -1.5) (layer F.SilkS)
     (effects (font (size 0.889 0.889) (thickness 0.2032)))
   )
-  (fp_text value SSOP-48 (at 4.5 -2.8) (layer F.Fab) hide
+  (fp_text value BSSOP-48 (at 4.5 -2.8) (layer F.Fab) hide
     (effects (font (size 0.889 0.889) (thickness 0.2032)))
   )
   (fp_line (start 5.3 -0.7) (end 7.9 -0.7) (layer F.SilkS) (width 0.254))
