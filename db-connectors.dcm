@@ -34,4 +34,8 @@ D Test Point 0.05" x 0.10"
 K Test Point
 $ENDCMP
 #
+$CMP USB-B1HSB6
+D CONN USB TYPE B R/A BLACK
+$ENDCMP
+#
 #End Doc Library
