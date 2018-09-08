@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 101-00405-75
+D CONN SD CARD PUSH-PUSH R/A SMD
+$ENDCMP
+#
 $CMP HDR1X2
 D 2 pin header
 $ENDCMP

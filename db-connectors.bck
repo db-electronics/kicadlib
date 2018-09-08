@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 101-00405-75
+D CONN SD CARD PUSH-PUSH R/A SMD
+$ENDCMP
+#
 $CMP HDR1X2
 D 2 pin header
 $ENDCMP
@@ -32,6 +36,10 @@ $ENDCMP
 $CMP TP_50x100
 D Test Point 0.05" x 0.10"
 K Test Point
+$ENDCMP
+#
+$CMP USB-B1HSB6
+D CONN USB TYPE B R/A BLACK
 $ENDCMP
 #
 #End Doc Library
