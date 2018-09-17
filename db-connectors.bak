@@ -202,7 +202,7 @@ F3 "http://www.on-shore.com/wp-content/uploads/2015/09/usb-b1hsxx.pdf" 1750 225 
 F4 "ED2983-ND" 300 400 60 H I C CNN "Digikey"
 F5 "CONN USB TYPE B R/A BLACK" 725 300 60 H I C CNN "Description"
 DRAW
-T 900 350 -225 60 0 0 0 USB  Normal 0 C C
+T 900 350 -225 60 0 0 0 USB~B  Normal 0 C C
 S 0 0 400 -700 0 0 10 f
 X +5V 1 -200 -100 200 R 50 50 1 1 P
 X D- 2 -200 -200 200 R 50 50 1 1 P
