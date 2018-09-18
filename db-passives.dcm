@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 0ZCJ0025FF2E
+D PTC RESET FUSE 16V 250MA 1206
+$ENDCMP
+#
 $CMP C
 D Unpolarized capacitor
 K capacitor
@@ -22,6 +26,10 @@ $ENDCMP
 $CMP C_0805
 D 0805 Capacitor
 K 0805 Capacitor
+$ENDCMP
+#
+$CMP ECS-80-18-30-JGN-TR
+D CRYSTAL 8.000 MHZ 18PF SMD
 $ENDCMP
 #
 $CMP R

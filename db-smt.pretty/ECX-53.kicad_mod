@@ -1,0 +1,13 @@
+(module ECX-53 (layer F.Cu) (tedit 5BA03681)
+  (solder_mask_margin 0.11)
+  (fp_text reference REF** (at 0.8 -2.4) (layer F.SilkS)
+    (effects (font (size 0.889 0.889) (thickness 0.2032)))
+  )
+  (fp_text value ECX-53 (at 1.6 2.6) (layer F.Fab) hide
+    (effects (font (size 0.889 0.889) (thickness 0.2032)))
+  )
+  (fp_line (start -0.8 1.6) (end 4.9 1.6) (layer F.SilkS) (width 0.2032))
+  (fp_line (start -0.8 -1.6) (end 4.9 -1.6) (layer F.SilkS) (width 0.2032))
+  (pad 1 smd rect (at 0 0) (size 1.9 2.4) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 4.1 0) (size 1.9 2.4) (layers F.Cu F.Paste F.Mask))
+)
