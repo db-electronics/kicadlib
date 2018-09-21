@@ -11,7 +11,7 @@ F3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCJ%20Nov201
 F4 "507-1798-1-ND" 325 550 60 H I C CNN "Digikey"
 F5 "PTC RESET FUSE 16V 250MA 1206" 700 650 60 H I C CNN "Description"
 DRAW
-S 0 -25 250 -125 0 1 10 N
+S 0 -25 250 -125 0 1 10 f
 P 2 0 1 10  50 -150  0 -150 N
 P 2 0 1 10  200 0  50 -150 N
 P 2 0 1 10  200 0  250 0 N
