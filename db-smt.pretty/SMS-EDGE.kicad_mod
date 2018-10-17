@@ -1,15 +1,15 @@
-(module SMS-EDGE (layer F.Cu) (tedit 5BC6AC71)
-  (fp_text reference REF** (at 0.8 -5.2) (layer F.SilkS) hide
+(module SMS-EDGE (layer F.Cu) (tedit 5BC724F5)
+  (fp_text reference REF** (at 0.8 -5.08) (layer F.SilkS) hide
     (effects (font (size 0.889 0.889) (thickness 0.2032)))
   )
-  (fp_text value SMS-EDGE (at 3.9 -7.4) (layer F.Fab) hide
+  (fp_text value SMS-EDGE (at 2.54 -6.985) (layer F.Fab) hide
     (effects (font (size 0.889 0.889) (thickness 0.2032)))
   )
-  (fp_line (start 63.5 3.175) (end 63.5 -3.81) (layer F.SilkS) (width 0.254))
-  (fp_line (start 62.23 4.445) (end 63.5 3.175) (layer F.SilkS) (width 0.254))
-  (fp_line (start -1.27 4.445) (end 62.23 4.445) (layer F.SilkS) (width 0.254))
-  (fp_line (start -2.54 3.175) (end -1.27 4.445) (layer Edge.Cuts) (width 0.254))
-  (fp_line (start -2.54 -3.81) (end -2.54 3.175) (layer Edge.Cuts) (width 0.254))
+  (fp_line (start 63.627 3.175) (end 63.627 -3.81) (layer F.SilkS) (width 0.254))
+  (fp_line (start 62.357 4.445) (end 63.627 3.175) (layer F.SilkS) (width 0.254))
+  (fp_line (start -1.397 4.445) (end 62.357 4.445) (layer F.SilkS) (width 0.254))
+  (fp_line (start -2.667 3.175) (end -1.397 4.445) (layer F.SilkS) (width 0.254))
+  (fp_line (start -2.667 -3.81) (end -2.667 3.175) (layer F.SilkS) (width 0.254))
   (pad 50 smd rect (at 0 0) (size 1.905 6.858) (layers F.Cu))
   (pad 48 smd rect (at 2.54 0) (size 1.905 6.858) (layers F.Cu))
   (pad 46 smd rect (at 5.08 0) (size 1.905 6.858) (layers F.Cu))
