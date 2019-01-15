@@ -479,4 +479,14 @@ D Power flag, negative power supply/ground
 K power-flag
 $ENDCMP
 #
+$CMP Vcart
+D Power flag, game cartridge voltage
+K power-flag
+$ENDCMP
+#
+$CMP Vusb
+D Power flag, bus voltage
+K power-flag USB
+$ENDCMP
+#
 #End Doc Library
