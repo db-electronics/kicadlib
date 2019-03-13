@@ -48,6 +48,11 @@ $CMP RCJ-2223
 D CONN RCA JACK MONO 3.2MM R/A
 $ENDCMP
 #
+$CMP TP_2.25x3_ROUNDED
+D Test Point 0.05" x 0.05"
+K Test Point
+$ENDCMP
+#
 $CMP TP_50
 D Test Point 0.05" x 0.05"
 K Test Point
