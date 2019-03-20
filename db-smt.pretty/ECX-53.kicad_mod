@@ -1,5 +1,6 @@
-(module ECX-53 (layer F.Cu) (tedit 5BA03681)
+(module ECX-53 (layer F.Cu) (tedit 5C91860C)
   (solder_mask_margin 0.11)
+  (attr smd)
   (fp_text reference REF** (at 0.8 -2.4) (layer F.SilkS)
     (effects (font (size 0.889 0.889) (thickness 0.2032)))
   )

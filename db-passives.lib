@@ -132,6 +132,7 @@ F2 "db-smt:ECX-53" 375 350 60 H I C CNN
 F3 "http://www.ecsxtal.com/store/pdf/ecx-53r.pdf" 1100 450 60 H I C CNN
 F4 "XC2103CT-ND" 325 550 60 H I C CNN "Digikey"
 F5 "CRYSTAL 8.000 MHZ 18PF SMD" 700 650 60 H I C CNN "Description"
+F6 "2019-03-19" 300 750 60 H I C CNN "Reviewed"
 DRAW
 S 25 0 125 -150 0 1 10 N
 P 2 0 1 10 0 25 0 -175 N
