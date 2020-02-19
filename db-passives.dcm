@@ -13,6 +13,12 @@ D Unpolarized capacitor
 K capacitor
 $ENDCMP
 #
+$CMP CAY16-222J4LF
+D RES ARRAY 4 RES 2.2K OHM 1206
+K CAY16-222J4LF
+F https://www.bourns.com/docs/Product-Datasheets/CATCAY.pdf
+$ENDCMP
+#
 $CMP CP
 D polarized capacitor
 $ENDCMP
