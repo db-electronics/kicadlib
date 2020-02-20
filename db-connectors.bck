@@ -24,6 +24,10 @@ $CMP HDR1X3
 D 3 pin header
 $ENDCMP
 #
+$CMP HDR2x5
+D CONN HEADER VERT 10POS 2.54MM
+$ENDCMP
+#
 $CMP JMP-PCB-3POS
 D 3 position solderable PCB jumper
 $ENDCMP
