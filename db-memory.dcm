@@ -4,6 +4,11 @@ $CMP AS4C16M16SA-6TCN
 D IC DRAM 256M PARALLEL 54TSOP
 $ENDCMP
 #
+$CMP AS6C1608-55TIN
+D IC SRAM 16M PARALLEL 44TSOP II
+F https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1608v1_1.pdf
+$ENDCMP
+#
 $CMP AT25SF041-SSHD-B
 D IC FLASH 4M SPI 104MHZ 8SOIC
 F http://www.adestotech.com/wp-content/uploads/DS-AT25SF041_044.pdf
