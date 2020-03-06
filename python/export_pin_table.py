@@ -133,9 +133,9 @@ if __name__ == "__main__":
         if grouping == "number":
             pin_list.sort()
         elif grouping == "type":
-            pin_list = sorted(pin_list, key=lambda x: (x[2], x[0]) )
+            pin_list = sorted(pin_list, key=lambda x: (x[2], x[0]))
         elif grouping == "name":
-            pin_list = sorted(pin_list, key=lambda x: x[1] )
+            pin_list = sorted(pin_list, key=lambda x: x[1])
 
         print("Writing {} with pin table sorted by {}".format(output_file, grouping))
 
@@ -144,7 +144,7 @@ if __name__ == "__main__":
                 csv_out.write("{}, {}, {}\n".format(pin[0], pin[1], pin[2]))
 
     else:
-        if component != None:
+        if component is not None:
             print("Component {} not found in library {}".format(component,library))
         print("Found the following components:")
         for comp in component_list:
