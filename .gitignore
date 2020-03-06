@@ -1,0 +1,5 @@
+# ignore pycharm files
+python/.idea
+
+# ignore pin output files from python script
+python/*.csv

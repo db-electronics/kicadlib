@@ -121,12 +121,12 @@ if __name__ == "__main__":
             else:
                 if line.startswith("X "):
                     line_items = line.split()
-                    pin_number = int(line_items[2])
+                    pin_number = line_items[2]
                     pin_name = line_items[1]
                     pin_type = kicad_pin_types[line_items[11]]
                     pin_list.append([pin_number, pin_name, pin_type])
                 elif line.startswith("ENDDEF"):
-                    continue
+                    break
 
     # output pin list to file, else print list of available components in the library
     if component_found == True:
