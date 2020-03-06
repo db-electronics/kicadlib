@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 10M04SCE144C8G
+D IC FPGA 101 I/O 144EQFP
+F https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/hb/max-10/m10_datasheet.pdf
+$ENDCMP
+#
 $CMP 5CEBA4F23C8N
 D IC FPGA 224 I/O 484FBGA
 $ENDCMP
@@ -96,11 +101,6 @@ $ENDCMP
 #
 $CMP SN74AHC16373DLR
 D IC 16BIT TRANSP D LATCH 48-SSOP
-$ENDCMP
-#
-$CMP SN74HC164PWR
-D IC SHFT REG SERIAL 8BIT 14-TSSOP
-F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hc164
 $ENDCMP
 #
 $CMP SN74HC165PWR

@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 10M04SCE144C8G
+D IC FPGA 101 I/O 144EQFP
+F https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/hb/max-10/m10_datasheet.pdf
+$ENDCMP
+#
 $CMP 5CEBA4F23C8N
 D IC FPGA 224 I/O 484FBGA
 $ENDCMP
