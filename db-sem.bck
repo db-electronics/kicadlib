@@ -9,6 +9,11 @@ $CMP 5CEBA4F23C8N
 D IC FPGA 224 I/O 484FBGA
 $ENDCMP
 #
+$CMP 5M160ZE64C5N
+D IC CPLD 128MC 7.5NS 64EQFP
+F https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/hb/max-v/max5_handbook.pdf
+$ENDCMP
+#
 $CMP 5M80ZE64I5N
 D IC CPLD 64MC 7.5NS 64EQFP
 $ENDCMP
@@ -114,6 +119,16 @@ $ENDCMP
 #
 $CMP SN74LVC1GU04DBVR
 D IC INVERTER 1CH 1-INP SOT23-5
+$ENDCMP
+#
+$CMP SN74LVC244APWR
+D IC BUF NON-INVERT 3.6V 20TSSOP
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc244a
+$ENDCMP
+#
+$CMP SN74LVC245APWR
+D IC TXRX NON-INVERT 3.6V 20TSSOP
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc245a
 $ENDCMP
 #
 $CMP THS7374IPWR

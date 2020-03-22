@@ -1,4 +1,4 @@
-(module LQFP-144-PAD (layer F.Cu) (tedit 5E616483)
+(module LQFP-144-PAD (layer F.Cu) (tedit 5E76AD70)
   (solder_mask_margin 0.1)
   (fp_text reference REF** (at -1.1 1.9) (layer F.SilkS)
     (effects (font (size 0.889 0.889) (thickness 0.2032)))
