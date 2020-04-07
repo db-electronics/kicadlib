@@ -8,6 +8,11 @@ $CMP 0ZCJ0025FF2E
 D PTC RESET FUSE 16V 250MA 1206
 $ENDCMP
 #
+$CMP 1K@100MHz
+D 1 kOhms @ 100MHz 1  Ferrite Bead 0805 (2012 Metric) 300mA 400mOhm
+F https://www.yuden.co.jp/productdata/catalog/mlci07_e.pdf
+$ENDCMP
+#
 $CMP C
 D Unpolarized capacitor
 K capacitor
