@@ -17,6 +17,11 @@ D MICRO SD NORMAL ULTRALOWPRO8CKTE
 F https://www.molex.com/pdm_docs/sd/5031821852_sd.pdf
 $ENDCMP
 #
+$CMP A-DS_09_A_KG-T4S
+D CONN D-SUB PLUG 9POS R/A SLDR
+F http://www.assmann-wsw.com/fileadmin/datasheets/ASS_4888_CO.pdf
+$ENDCMP
+#
 $CMP BLP2032SM-GTR
 D BATTERY HOLDER COIN 20MM SMD
 $ENDCMP
