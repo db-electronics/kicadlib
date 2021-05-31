@@ -48,6 +48,11 @@ D IC FF D-TYPE DUAL 1BIT 14TSSOP
 F https://assets.nexperia.com/documents/data-sheet/74HC_HCT74.pdf
 $ENDCMP
 #
+$CMP 74HC86D,653
+D IC GATE XOR 4CH 2-INP 14SO
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT86.pdf
+$ENDCMP
+#
 $CMP 74HCT1G04GV,125
 D IC INVERTER 1CH 1-INP 5TSOP
 $ENDCMP
