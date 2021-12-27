@@ -27,6 +27,10 @@ $CMP HUCARD-1250MIL
 D Turbografx-16 1.250" HuCard
 $ENDCMP
 #
+$CMP N64-CONN
+D N64 Cartridge Connector
+$ENDCMP
+#
 $CMP SMS-CONN
 D SMS CONN
 $ENDCMP
