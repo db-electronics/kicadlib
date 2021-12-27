@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ATTINY25V-10SSUR
+D IC MCU 8BIT 2KB FLASH 8SOIC
+F https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet-Summary.pdf
+$ENDCMP
+#
 $CMP PIC12F629-I_SN
 D IC MCU 8BIT 1.75KB FLASH 8SOIC
 $ENDCMP
