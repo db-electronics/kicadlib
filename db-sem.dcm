@@ -53,6 +53,16 @@ D IC GATE XOR 4CH 2-INP 14SO
 F https://assets.nexperia.com/documents/data-sheet/74HC_HCT86.pdf
 $ENDCMP
 #
+$CMP 74HCT00PW,118
+D IC GATE NAND 4CH 2-INP 14TSSOP
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT00.pdf
+$ENDCMP
+#
+$CMP 74HCT193PW,118
+D IC COUNTER UP/DOWN SYNC 16TSSOP
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT193.pdf
+$ENDCMP
+#
 $CMP 74HCT1G04GV,125
 D IC INVERTER 1CH 1-INP 5TSOP
 $ENDCMP
@@ -60,6 +70,11 @@ $ENDCMP
 $CMP 74HCT1G08GV,125
 D IC GATE AND 1CH 2-INP SC74A
 F https://assets.nexperia.com/documents/data-sheet/74HC_HCT1G08.pdf
+$ENDCMP
+#
+$CMP 74HCT573PW,118
+D IC OCTAL D TRANSP LATCH 20TSSOP
+F https://assets.nexperia.com/documents/data-sheet/74ALVC164245.pdf
 $ENDCMP
 #
 $CMP AP22802AW5-7
