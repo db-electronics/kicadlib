@@ -1,15 +1,23 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BAT160C,115
+D DIODE ARRAY SCHOTTKY 60V SOT223
+F https://assets.nexperia.com/documents/data-sheet/BAT160_SERIES.pdf
+$ENDCMP
+#
 $CMP BAT54A
 D DIODE ARRAY SCHOTTKY 30V SOT23-3
+F https://assets.nexperia.com/documents/data-sheet/BAT54_SER.pdf
 $ENDCMP
 #
 $CMP BAT54C
 D DIODE ARRAY SCHOTTKY 30V SOT23-3
+F https://assets.nexperia.com/documents/data-sheet/BAT54_SER.pdf
 $ENDCMP
 #
 $CMP BAT54S
 D DIODE ARRAY SCHOTTKY 30V SOT23-3
+F https://assets.nexperia.com/documents/data-sheet/BAT54_SER.pdf
 $ENDCMP
 #
 $CMP BZT52-B5V6J
