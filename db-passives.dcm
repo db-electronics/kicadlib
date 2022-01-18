@@ -13,6 +13,11 @@ D FERRITE BEAD 1 KOHM 0805 1LN
 F https://media.digikey.com/pdf/Data%20Sheets/Wurth%20Electronics%20PDFs/Q+_Products_Flyer.pdf
 $ENDCMP
 #
+$CMP ABLS-8.000MHZ-B4-T
+D CRYSTAL 8.0000MHZ 18PF SMD
+F https://abracon.com/Resonators/ABLS.pdf
+$ENDCMP
+#
 $CMP C
 D Unpolarized capacitor
 K capacitor
