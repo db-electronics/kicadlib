@@ -65,4 +65,10 @@ D UMD Cartridge Interface Connector
 K UMD
 $ENDCMP
 #
+$CMP UMDv3-CONN
+D UMD Cartridge Interface Connector
+K UMD
+F http://suddendocs.samtec.com/prints/ssw-1xx-xx-xxx-x-xx-xxx-xx-mkt.pdf
+$ENDCMP
+#
 #End Doc Library
