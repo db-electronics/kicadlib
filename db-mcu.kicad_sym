@@ -2782,7 +2782,7 @@
     (property "Value" "Z84C0010PEG" (id 1) (at 8.255 1.27 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "db-thparts:C64-CONN" (id 2) (at 14.605 16.51 0)
+    (property "Footprint" "db-thparts:DIP-40-600MIL" (id 2) (at 14.605 16.51 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "http://www.zilog.com/docs/z80/ps0178.pdf" (id 3) (at 38.735 11.43 0)
