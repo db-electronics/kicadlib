@@ -1,158 +1,811 @@
-EESchema-LIBRARY Version 2.3
-#encoding utf-8
-#
-# 0ZCJ0025FF2E
-#
-DEF 0ZCJ0025FF2E F 0 40 Y Y 1 F N
-F0 "F" 25 25 50 H V C CNN
-F1 "0ZCJ0025FF2E" 250 100 50 H V C CNN
-F2 "db-smt:1206" 375 350 60 H I C CNN
-F3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCJ%20Nov2016.pdf" 1100 450 60 H I C CNN
-F4 "507-1798-1-ND" 325 550 60 H I C CNN "Digikey"
-F5 "PTC RESET FUSE 16V 250MA 1206" 700 650 60 H I C CNN "Description"
-DRAW
-S 0 -25 250 -125 0 1 10 f
-P 2 0 1 10  50 -150  0 -150 N
-P 2 0 1 10  200 0  50 -150 N
-P 2 0 1 10  200 0  250 0 N
-X 1 1 -100 -75 100 R 0 0 1 1 I
-X 2 2 350 -75 100 L 0 0 1 1 I
-ENDDRAW
-ENDDEF
-#
-# C
-#
-DEF C C 0 10 N Y 1 F N
-F0 "C" 25 100 50 H V L CNN
-F1 "C" 25 -100 50 H V L CNN
-F2 "" 38 -150 30 H I C CNN
-F3 "" 0 0 60 H V C CNN
-$FPLIST
- 0603*
-$ENDFPLIST
-DRAW
-P 2 0 1 20  -80 -30  80 -30 N
-P 2 0 1 20  -80 30  80 30 N
-X ~ 1 0 150 110 D 40 40 1 1 P
-X ~ 2 0 -150 110 U 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
-# CP
-#
-DEF CP C 0 10 N Y 1 F N
-F0 "C" 130 50 50 H V L CNN
-F1 "CP" 130 -55 50 H V L CNN
-F2 "" 38 -150 30 H I C CNN
-F3 "" 130 50 60 H V C CNN
-DRAW
-A 0 -160 132 1273 527 0 1 20 N -80 -55 80 -55
-P 2 0 1 20  -80 30  80 30 N
-X ~ 1 0 150 110 D 40 40 1 1 P
-X ~ 2 0 -150 110 U 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
-# CP_1206
-#
-DEF CP_1206 C 0 10 N Y 1 F N
-F0 "C" 130 50 50 H V L CNN
-F1 "CP_1206" 130 -55 50 H V L CNN
-F2 "db-smt:1206_P" 300 -150 30 H I C CNN
-F3 "" 130 50 60 H V C CNN
-F4 "#ND" 230 150 60 H I C CNN "Digikey"
-F5 "#ND" 225 250 60 H I C CNN "Description"
-DRAW
-A 0 -160 132 1273 527 0 1 20 N -80 -55 80 -55
-P 2 0 1 20  -80 30  80 30 N
-X ~ 1 0 150 110 D 40 40 1 1 P
-X ~ 2 0 -150 110 U 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
-# C_0603
-#
-DEF C_0603 C 0 10 N Y 1 F N
-F0 "C" 25 100 50 H V L CNN
-F1 "C_0603" 25 -100 50 H V L CNN
-F2 "db-smt:0603" 500 -100 30 H I C CNN
-F3 "" 25 100 60 H I C CNN
-F4 "#ND" 425 -25 60 H I C CNN "Digikey"
-F5 "#ND" 425 75 60 H I C CNN "Description"
-DRAW
-P 2 0 1 20  -80 -30  80 -30 N
-P 2 0 1 20  -80 30  80 30 N
-X ~ 1 0 150 110 D 40 40 1 1 P
-X ~ 2 0 -150 110 U 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
-# C_0805
-#
-DEF C_0805 C 0 10 N Y 1 F N
-F0 "C" 25 100 50 H V L CNN
-F1 "C_0805" 25 -100 50 H V L CNN
-F2 "db-smt:0805" 38 -150 30 H I C CNN
-F3 "" 25 100 60 H V C CNN
-F4 "#ND" 125 200 60 H I C CNN "Digikey"
-F5 "#ND" 125 300 60 H I C CNN "Description"
-DRAW
-P 2 0 1 20  -80 -30  80 -30 N
-P 2 0 1 20  -80 30  80 30 N
-X ~ 1 0 150 110 D 40 40 1 1 P
-X ~ 2 0 -150 110 U 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
-# ECS-80-18-30-JGN-TR
-#
-DEF ECS-80-18-30-JGN-TR X 0 40 Y Y 1 F N
-F0 "X" 75 100 50 H V C CNN
-F1 "ECS-80-18-30-JGN-TR" 500 200 50 H V C CNN
-F2 "db-smt:ECX-53" 375 350 60 H I C CNN
-F3 "http://www.ecsxtal.com/store/pdf/ecx-53r.pdf" 1100 450 60 H I C CNN
-F4 "XC2103CT-ND" 325 550 60 H I C CNN "Digikey"
-F5 "CRYSTAL 8.000 MHZ 18PF SMD" 700 650 60 H I C CNN "Description"
-DRAW
-S 25 0 125 -150 0 1 10 N
-P 2 0 1 10  0 25  0 -175 N
-P 2 0 1 10  150 25  150 -175 N
-X 1 1 -100 -75 100 R 0 0 1 1 I
-X 2 2 250 -75 100 L 0 0 1 1 I
-ENDDRAW
-ENDDEF
-#
-# R
-#
-DEF R R 0 0 N Y 1 F N
-F0 "R" 100 0 50 V V C CNN
-F1 "R" -100 -25 50 V V C CNN
-F2 "" -70 0 30 H I C CNN
-F3 "" 100 0 30 H I C CNN
-$FPLIST
- 0603*
-$ENDFPLIST
-DRAW
-P 8 0 1 0  0 150  50 125  -50 75  50 25  -50 -25  50 -75  -50 -125  0 -150 N
-X ~ 1 0 200 50 D 60 60 1 1 P
-X ~ 2 0 -200 50 U 60 60 1 1 P
-ENDDRAW
-ENDDEF
-#
-# R_0603
-#
-DEF R_0603 R 0 0 N Y 1 F N
-F0 "R" 100 0 50 V V C CNN
-F1 "R_0603" -100 -25 50 V V C CNN
-F2 "db-smt:0603" 300 -100 30 H I C CNN
-F3 "" 100 0 30 H I C CNN
-F4 "#ND" 250 -25 60 H I C CNN "Digikey"
-F5 "#ND" 250 75 60 H I C CNN "Description"
-DRAW
-P 8 0 1 0  0 150  50 125  -50 75  50 25  -50 -25  50 -75  -50 -125  0 -150 N
-X ~ 1 0 200 50 D 60 60 1 1 P
-X ~ 2 0 -200 50 U 60 60 1 1 P
-ENDDRAW
-ENDDEF
-#
-#End Library
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "0ZCF0100AF2A" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "F" (id 0) (at 0.635 0.635 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "0ZCF0100AF2A" (id 1) (at 6.35 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "db-smt:2920" (id 2) (at 9.525 8.89 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "https://belfuse.com/resources/CircuitProtection/datasheets/0ZCF%20Nov2016.pdf" (id 3) (at 27.94 11.43 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Digikey" "507-2070-1-ND" (id 4) (at 8.255 13.97 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Description" "PTC RESET FUSE 60V 1A 2920" (id 5) (at 17.78 16.51 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "ki_description" "PTC RESET FUSE 60V 1A 2920" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "0ZCF0100AF2A_0_1"
+      (rectangle (start 0 -0.635) (end 6.35 -3.175)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy 1.27 -3.81)
+          (xy 0 -3.81)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.08 0)
+          (xy 1.27 -3.81)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.08 0)
+          (xy 6.35 0)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "0ZCF0100AF2A_1_1"
+      (pin input line (at -2.54 -1.905 0) (length 2.54)
+        (name "1" (effects (font (size 0 0))))
+        (number "1" (effects (font (size 0 0))))
+      )
+      (pin input line (at 8.89 -1.905 180) (length 2.54)
+        (name "2" (effects (font (size 0 0))))
+        (number "2" (effects (font (size 0 0))))
+      )
+    )
+  )
+  (symbol "0ZCJ0025FF2E" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "F" (id 0) (at 0.635 0.635 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "0ZCJ0025FF2E" (id 1) (at 6.35 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "db-smt:1206" (id 2) (at 9.525 8.89 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCJ%20Nov2016.pdf" (id 3) (at 27.94 11.43 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Digikey" "507-1798-1-ND" (id 4) (at 8.255 13.97 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Description" "PTC RESET FUSE 16V 250MA 1206" (id 5) (at 17.78 16.51 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "ki_description" "PTC RESET FUSE 16V 250MA 1206" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "0ZCJ0025FF2E_0_1"
+      (rectangle (start 0 -0.635) (end 6.35 -3.175)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy 1.27 -3.81)
+          (xy 0 -3.81)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.08 0)
+          (xy 1.27 -3.81)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.08 0)
+          (xy 6.35 0)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "0ZCJ0025FF2E_1_1"
+      (pin input line (at -2.54 -1.905 0) (length 2.54)
+        (name "1" (effects (font (size 0 0))))
+        (number "1" (effects (font (size 0 0))))
+      )
+      (pin input line (at 8.89 -1.905 180) (length 2.54)
+        (name "2" (effects (font (size 0 0))))
+        (number "2" (effects (font (size 0 0))))
+      )
+    )
+  )
+  (symbol "1K@100MHz" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "FB" (id 0) (at 0 7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "1K@100MHz" (id 1) (at 0 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "db-smt:0805" (id 2) (at 3.81 8.89 0)
+      (effects (font (size 0.762 0.762)) hide)
+    )
+    (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Wurth%20Electronics%20PDFs/Q+_Products_Flyer.pdf" (id 3) (at 1.27 0.635 90)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Digikey" "732-6704-1-ND" (id 4) (at 10.16 11.43 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Description" "FERRITE BEAD 1 KOHM 0805 1LN" (id 5) (at 19.05 13.97 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "ki_description" "FERRITE BEAD 1 KOHM 0805 1LN" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "1K@100MHz_0_1"
+      (polyline
+        (pts
+          (xy 1.27 -1.27)
+          (xy 2.54 1.905)
+          (xy 3.81 1.27)
+          (xy 2.54 -1.905)
+          (xy 1.27 -1.27)
+        )
+        (stroke (width 0.508) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "1K@100MHz_1_1"
+      (pin passive line (at 0 0 0) (length 1.7018)
+        (name "~" (effects (font (size 1.016 1.016))))
+        (number "1" (effects (font (size 1.016 1.016))))
+      )
+      (pin passive line (at 5.08 0 180) (length 1.7018)
+        (name "~" (effects (font (size 1.016 1.016))))
+        (number "2" (effects (font (size 1.016 1.016))))
+      )
+    )
+  )
+  (symbol "ABLS-8.000MHZ-B4-T" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "X" (id 0) (at 0 1.27 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "ABLS-8.000MHZ-B4-T" (id 1) (at 10.16 3.81 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "db-smt:HC-49US" (id 2) (at 9.525 8.89 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "https://abracon.com/Resonators/ABLS.pdf" (id 3) (at 27.94 11.43 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Digikey" "535-10212-1-ND" (id 4) (at 8.255 13.97 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Description" "CRYSTAL 8.0000MHZ 18PF SMD" (id 5) (at 17.78 16.51 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Reviewed" "2020-01-17" (id 6) (at 7.62 19.05 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "ki_description" "CRYSTAL 8.0000MHZ 18PF SMD" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "ABLS-8.000MHZ-B4-T_0_1"
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 -5.08)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.81 0)
+          (xy 3.81 -5.08)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (rectangle (start 0.635 -0.635) (end 3.175 -4.445)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "ABLS-8.000MHZ-B4-T_1_1"
+      (pin input line (at -1.27 -2.54 0) (length 1.27)
+        (name "1" (effects (font (size 0 0))))
+        (number "1" (effects (font (size 0 0))))
+      )
+      (pin input line (at 5.08 -2.54 180) (length 1.27)
+        (name "2" (effects (font (size 0 0))))
+        (number "2" (effects (font (size 0 0))))
+      )
+    )
+  )
+  (symbol "C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "C" (id 1) (at 0.635 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (id 2) (at 0.9652 -3.81 0)
+      (effects (font (size 0.762 0.762)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "ki_keywords" "capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Unpolarized capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "0603*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C_0_1"
+      (polyline
+        (pts
+          (xy -2.032 -0.762)
+          (xy 2.032 -0.762)
+        )
+        (stroke (width 0.508) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.032 0.762)
+          (xy 2.032 0.762)
+        )
+        (stroke (width 0.508) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "C_1_1"
+      (pin passive line (at 0 3.81 270) (length 2.794)
+        (name "~" (effects (font (size 1.016 1.016))))
+        (number "1" (effects (font (size 1.016 1.016))))
+      )
+      (pin passive line (at 0 -3.81 90) (length 2.794)
+        (name "~" (effects (font (size 1.016 1.016))))
+        (number "2" (effects (font (size 1.016 1.016))))
+      )
+    )
+  )
+  (symbol "CAY16-222J4LF" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "RN" (id 0) (at -5.08 -6.35 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "CAY16-222J4LF" (id 1) (at -2.54 0 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "db-smt:CAY16-x4" (id 2) (at 6.35 17.78 0)
+      (effects (font (size 0.762 0.762)) hide)
+    )
+    (property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CATCAY.pdf" (id 3) (at 1.27 0 0)
+      (effects (font (size 0.762 0.762)) hide)
+    )
+    (property "Digikey" "CAY16-222J4LFCT-ND" (id 4) (at 5.08 12.7 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Description" "RES ARRAY 4 RES 2.2K OHM 1206" (id 5) (at 5.08 15.24 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "ki_keywords" "CAY16-222J4LF" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "RES ARRAY 4 RES 2.2K OHM 1206" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "CAY16-222J4LF_0_1"
+      (polyline
+        (pts
+          (xy 0 3.81)
+          (xy 1.27 3.175)
+          (xy -1.27 1.905)
+          (xy 1.27 0.635)
+          (xy -1.27 -0.635)
+          (xy 1.27 -1.905)
+          (xy -1.27 -3.175)
+          (xy 0 -3.81)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.54 3.81)
+          (xy 3.81 3.175)
+          (xy 1.27 1.905)
+          (xy 3.81 0.635)
+          (xy 1.27 -0.635)
+          (xy 3.81 -1.905)
+          (xy 1.27 -3.175)
+          (xy 2.54 -3.81)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.08 3.81)
+          (xy 6.35 3.175)
+          (xy 3.81 1.905)
+          (xy 6.35 0.635)
+          (xy 3.81 -0.635)
+          (xy 6.35 -1.905)
+          (xy 3.81 -3.175)
+          (xy 5.08 -3.81)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.62 3.81)
+          (xy 8.89 3.175)
+          (xy 6.35 1.905)
+          (xy 8.89 0.635)
+          (xy 6.35 -0.635)
+          (xy 8.89 -1.905)
+          (xy 6.35 -3.175)
+          (xy 7.62 -3.81)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "CAY16-222J4LF_1_1"
+      (pin passive line (at 0 5.08 270) (length 1.27)
+        (name "~" (effects (font (size 1.524 1.524))))
+        (number "1" (effects (font (size 1.524 1.524))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 1.27)
+        (name "~" (effects (font (size 1.524 1.524))))
+        (number "2" (effects (font (size 1.524 1.524))))
+      )
+      (pin passive line (at 2.54 5.08 270) (length 1.27)
+        (name "~" (effects (font (size 1.524 1.524))))
+        (number "3" (effects (font (size 1.524 1.524))))
+      )
+      (pin passive line (at 2.54 -5.08 90) (length 1.27)
+        (name "~" (effects (font (size 1.524 1.524))))
+        (number "4" (effects (font (size 1.524 1.524))))
+      )
+      (pin passive line (at 5.08 5.08 270) (length 1.27)
+        (name "~" (effects (font (size 1.524 1.524))))
+        (number "5" (effects (font (size 1.524 1.524))))
+      )
+      (pin passive line (at 5.08 -5.08 90) (length 1.27)
+        (name "~" (effects (font (size 1.524 1.524))))
+        (number "6" (effects (font (size 1.524 1.524))))
+      )
+      (pin passive line (at 7.62 5.08 270) (length 1.27)
+        (name "~" (effects (font (size 1.524 1.524))))
+        (number "7" (effects (font (size 1.524 1.524))))
+      )
+      (pin passive line (at 7.62 -5.08 90) (length 1.27)
+        (name "~" (effects (font (size 1.524 1.524))))
+        (number "8" (effects (font (size 1.524 1.524))))
+      )
+    )
+  )
+  (symbol "CP" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 3.302 1.27 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "CP" (id 1) (at 3.302 -1.397 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (id 2) (at 0.9652 -3.81 0)
+      (effects (font (size 0.762 0.762)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 3.302 1.27 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "ki_description" "polarized capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "CP_0_1"
+      (polyline
+        (pts
+          (xy -2.032 0.762)
+          (xy 2.032 0.762)
+        )
+        (stroke (width 0.508) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 2.032 -1.397) (mid 0 -0.7111) (end -2.032 -1.397)
+        (stroke (width 0.508) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "CP_1_1"
+      (pin passive line (at 0 3.81 270) (length 2.794)
+        (name "~" (effects (font (size 1.016 1.016))))
+        (number "1" (effects (font (size 1.016 1.016))))
+      )
+      (pin passive line (at 0 -3.81 90) (length 2.794)
+        (name "~" (effects (font (size 1.016 1.016))))
+        (number "2" (effects (font (size 1.016 1.016))))
+      )
+    )
+  )
+  (symbol "CP_1206" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 3.302 1.27 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "CP_1206" (id 1) (at 3.302 -1.397 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "db-smt:1206_P" (id 2) (at 7.62 -3.81 0)
+      (effects (font (size 0.762 0.762)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 3.302 1.27 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Digikey" "#ND" (id 4) (at 5.842 3.81 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Description" "#ND" (id 5) (at 5.715 6.35 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "ki_keywords" "1206 Polarized Capacitor" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "1206 Polarized Capacitor" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "CP_1206_0_1"
+      (polyline
+        (pts
+          (xy -2.032 0.762)
+          (xy 2.032 0.762)
+        )
+        (stroke (width 0.508) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 2.032 -1.397) (mid 0 -0.7111) (end -2.032 -1.397)
+        (stroke (width 0.508) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "CP_1206_1_1"
+      (pin passive line (at 0 3.81 270) (length 2.794)
+        (name "~" (effects (font (size 1.016 1.016))))
+        (number "1" (effects (font (size 1.016 1.016))))
+      )
+      (pin passive line (at 0 -3.81 90) (length 2.794)
+        (name "~" (effects (font (size 1.016 1.016))))
+        (number "2" (effects (font (size 1.016 1.016))))
+      )
+    )
+  )
+  (symbol "C_0603" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "C_0603" (id 1) (at 0.635 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "db-smt:0603" (id 2) (at 12.7 -2.54 0)
+      (effects (font (size 0.762 0.762)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0.635 2.54 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Digikey" "#ND" (id 4) (at 10.795 -0.635 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Description" "#ND" (id 5) (at 10.795 1.905 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "ki_keywords" "0603 Capacitor" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "0603 Capacitor" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C_0603_0_1"
+      (polyline
+        (pts
+          (xy -2.032 -0.762)
+          (xy 2.032 -0.762)
+        )
+        (stroke (width 0.508) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.032 0.762)
+          (xy 2.032 0.762)
+        )
+        (stroke (width 0.508) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "C_0603_1_1"
+      (pin passive line (at 0 3.81 270) (length 2.794)
+        (name "~" (effects (font (size 1.016 1.016))))
+        (number "1" (effects (font (size 1.016 1.016))))
+      )
+      (pin passive line (at 0 -3.81 90) (length 2.794)
+        (name "~" (effects (font (size 1.016 1.016))))
+        (number "2" (effects (font (size 1.016 1.016))))
+      )
+    )
+  )
+  (symbol "C_0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "C_0805" (id 1) (at 0.635 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "db-smt:0805" (id 2) (at 0.9652 -3.81 0)
+      (effects (font (size 0.762 0.762)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0.635 2.54 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Digikey" "#ND" (id 4) (at 3.175 5.08 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Description" "#ND" (id 5) (at 3.175 7.62 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "ki_keywords" "0805 Capacitor" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "0805 Capacitor" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C_0805_0_1"
+      (polyline
+        (pts
+          (xy -2.032 -0.762)
+          (xy 2.032 -0.762)
+        )
+        (stroke (width 0.508) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.032 0.762)
+          (xy 2.032 0.762)
+        )
+        (stroke (width 0.508) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "C_0805_1_1"
+      (pin passive line (at 0 3.81 270) (length 2.794)
+        (name "~" (effects (font (size 1.016 1.016))))
+        (number "1" (effects (font (size 1.016 1.016))))
+      )
+      (pin passive line (at 0 -3.81 90) (length 2.794)
+        (name "~" (effects (font (size 1.016 1.016))))
+        (number "2" (effects (font (size 1.016 1.016))))
+      )
+    )
+  )
+  (symbol "ECS-80-18-30-JGN-TR" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "X" (id 0) (at 1.905 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "ECS-80-18-30-JGN-TR" (id 1) (at 12.7 5.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "db-smt:ECX-53" (id 2) (at 9.525 8.89 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "http://www.ecsxtal.com/store/pdf/ecx-53r.pdf" (id 3) (at 27.94 11.43 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Digikey" "XC2103CT-ND" (id 4) (at 8.255 13.97 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Description" "CRYSTAL 8.000 MHZ 18PF SMD" (id 5) (at 17.78 16.51 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Reviewed" "2019-03-19" (id 6) (at 7.62 19.05 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "ki_description" "CRYSTAL 8.000 MHZ 18PF SMD" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "ECS-80-18-30-JGN-TR_0_1"
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 -5.08)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.81 0)
+          (xy 3.81 -5.08)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (rectangle (start 0.635 -0.635) (end 3.175 -4.445)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "ECS-80-18-30-JGN-TR_1_1"
+      (pin input line (at -1.27 -2.54 0) (length 1.27)
+        (name "1" (effects (font (size 0 0))))
+        (number "1" (effects (font (size 0 0))))
+      )
+      (pin input line (at 5.08 -2.54 180) (length 1.27)
+        (name "2" (effects (font (size 0 0))))
+        (number "2" (effects (font (size 0 0))))
+      )
+    )
+  )
+  (symbol "R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "R" (id 0) (at 2.54 0 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "R" (id 1) (at -2.54 -0.635 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at -1.778 0 0)
+      (effects (font (size 0.762 0.762)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 2.54 0 0)
+      (effects (font (size 0.762 0.762)) hide)
+    )
+    (property "ki_keywords" "Resistor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Resistor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "0603*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "R_0_1"
+      (polyline
+        (pts
+          (xy 0 3.81)
+          (xy 1.27 3.175)
+          (xy -1.27 1.905)
+          (xy 1.27 0.635)
+          (xy -1.27 -0.635)
+          (xy 1.27 -1.905)
+          (xy -1.27 -3.175)
+          (xy 0 -3.81)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "R_1_1"
+      (pin passive line (at 0 5.08 270) (length 1.27)
+        (name "~" (effects (font (size 1.524 1.524))))
+        (number "1" (effects (font (size 1.524 1.524))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 1.27)
+        (name "~" (effects (font (size 1.524 1.524))))
+        (number "2" (effects (font (size 1.524 1.524))))
+      )
+    )
+  )
+  (symbol "R_0.25W_AXIAL" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "R" (id 0) (at 2.54 0 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "R_0.25W_AXIAL" (id 1) (at -2.54 -0.635 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "db-thparts:RES_H_0.25W" (id 2) (at 7.62 -2.54 0)
+      (effects (font (size 0.762 0.762)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 2.54 0 0)
+      (effects (font (size 0.762 0.762)) hide)
+    )
+    (property "Digikey" "#ND" (id 4) (at 6.35 -0.635 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Description" "#ND" (id 5) (at 6.35 1.905 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "ki_keywords" "1/4W AXIAL RESISTOR" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "1/4W AXIAL RESISTOR" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "R_0.25W_AXIAL_0_1"
+      (polyline
+        (pts
+          (xy 0 3.81)
+          (xy 1.27 3.175)
+          (xy -1.27 1.905)
+          (xy 1.27 0.635)
+          (xy -1.27 -0.635)
+          (xy 1.27 -1.905)
+          (xy -1.27 -3.175)
+          (xy 0 -3.81)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "R_0.25W_AXIAL_1_1"
+      (pin passive line (at 0 5.08 270) (length 1.27)
+        (name "~" (effects (font (size 1.524 1.524))))
+        (number "1" (effects (font (size 1.524 1.524))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 1.27)
+        (name "~" (effects (font (size 1.524 1.524))))
+        (number "2" (effects (font (size 1.524 1.524))))
+      )
+    )
+  )
+  (symbol "R_0603" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "R" (id 0) (at 2.54 0 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "R_0603" (id 1) (at -2.54 -0.635 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "db-smt:0603" (id 2) (at 7.62 -2.54 0)
+      (effects (font (size 0.762 0.762)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 2.54 0 0)
+      (effects (font (size 0.762 0.762)) hide)
+    )
+    (property "Digikey" "#ND" (id 4) (at 6.35 -0.635 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Description" "#ND" (id 5) (at 6.35 1.905 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "ki_keywords" "0603 Resistor" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "0603 Resistor" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "R_0603_0_1"
+      (polyline
+        (pts
+          (xy 0 3.81)
+          (xy 1.27 3.175)
+          (xy -1.27 1.905)
+          (xy 1.27 0.635)
+          (xy -1.27 -0.635)
+          (xy 1.27 -1.905)
+          (xy -1.27 -3.175)
+          (xy 0 -3.81)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "R_0603_1_1"
+      (pin passive line (at 0 5.08 270) (length 1.27)
+        (name "~" (effects (font (size 1.524 1.524))))
+        (number "1" (effects (font (size 1.524 1.524))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 1.27)
+        (name "~" (effects (font (size 1.524 1.524))))
+        (number "2" (effects (font (size 1.524 1.524))))
+      )
+    )
+  )
+)
