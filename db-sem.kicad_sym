@@ -4318,6 +4318,20 @@
     (property "ki_description" "IC GATE NAND 1CH 8-INP 14DIP" (id 7) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "CD74HC30E_0_0"
+      (pin no_connect line (at -2.54 -26.67 0) (length 2.54) hide
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "10" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect line (at -2.54 -29.21 0) (length 2.54) hide
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "13" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect line (at -2.54 -24.13 0) (length 2.54) hide
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "9" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "CD74HC30E_1_0"
       (pin input line (at -3.81 -1.27 0) (length 3.81)
         (name "A" (effects (font (size 0 0))))
