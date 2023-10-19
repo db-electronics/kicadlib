@@ -79,6 +79,12 @@
         (fill (type background))
       )
     )
+    (symbol "NSP-4-6-01_1_1"
+      (pin no_connect line (at 1.27 -8.89 0) (length 2.54) hide
+        (name "nc" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
   )
   (symbol "PTS645SM43SMTR92_LFS" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "SW" (id 0) (at 2.54 3.81 0)
