@@ -577,7 +577,7 @@
     (property "Value" "GBA-CONN" (at 8.89 3.81 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "db-smt:GBA-CONN" (at 15.24 8.89 0)
+    (property "Footprint" "db-smt:GBA-CONN_B" (at 15.24 8.89 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 2.54 1.27 0)
