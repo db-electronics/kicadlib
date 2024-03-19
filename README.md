@@ -12,4 +12,4 @@ PARTICULAR PURPOSE. Please see the CERN OHL v.1.2 for applicable
 conditions
 
 # KiCad Library
-This project contains KiCad schematic and footprint components use throughout my KiCad projects.
+This project contains KiCad schematic and footprint components use throughout my KiCad projects. If you're going to use my free parts libraries you should consider me. Thanks!
