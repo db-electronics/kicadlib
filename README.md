@@ -12,4 +12,7 @@ PARTICULAR PURPOSE. Please see the CERN OHL v.1.2 for applicable
 conditions
 
 # KiCad Library
-This project contains KiCad schematic and footprint components use throughout my KiCad projects. If you're going to use my free parts libraries you should consider me. Thanks!
+This project contains KiCad schematic and footprint components use throughout my KiCad projects. If you're going to use my free parts libraries in your project you should consider sponsoring me. Thanks!
+
+- [Github Sponsor](https://github.com/sponsors/db-electronics)
+- [Pateron](https://patreon.com/dbelectronics)
