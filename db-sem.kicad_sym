@@ -1548,11 +1548,11 @@
       )
     )
   )
-  (symbol "5M80ZE64I5N" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "5M80ZE64C5N" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (at 2.54 3.175 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "5M80ZE64I5N" (at 7.62 1.27 0)
+    (property "Value" "5M80ZE64C5N" (at 7.62 1.27 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "db-smt:TQFP-E64_7X7" (at 11.43 13.97 0)
@@ -1561,7 +1561,10 @@
     (property "Datasheet" "https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/hb/max-v/max5_handbook.pdf" (at 54.61 6.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Digikey" "544-2817-ND" (at 6.985 8.255 0)
+    (property "Supplier" "www.digikey.ca" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part Number" "544-2715-ND" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Description" "IC CPLD 64MC 7.5NS 64EQFP" (at 14.605 10.795 0)
@@ -1573,13 +1576,13 @@
     (property "ki_description" "IC CPLD 64MC 7.5NS 64EQFP" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "5M80ZE64I5N_0_0"
+    (symbol "5M80ZE64C5N_0_0"
       (pin power_in line (at -5.08 -67.31 0) (length 5.08)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "PAD" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "5M80ZE64I5N_1_0"
+    (symbol "5M80ZE64C5N_1_0"
       (rectangle (start 0 0) (end 25.4 -71.12)
         (stroke (width 0.254) (type default))
         (fill (type background))
@@ -1720,7 +1723,7 @@
         (number "9" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "5M80ZE64I5N_2_0"
+    (symbol "5M80ZE64C5N_2_0"
       (rectangle (start 0 0) (end 25.4 -71.12)
         (stroke (width 0.254) (type default))
         (fill (type background))
