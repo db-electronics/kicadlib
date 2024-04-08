@@ -1,0 +1,94 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid fb4944d4-14cb-4442-bdd4-299490901fb8)
+
+  (paper "B")
+
+  (title_block
+    (date "2024-04-08")
+    (rev "0.1")
+    (company "db Electronics")
+    (comment 1 "https://github.com/db-electronics/")
+    (comment 2 "Licensed Under CERN OHL v.1.2")
+    (comment 3 "Copyright 2024 René Richard")
+  )
+
+  (lib_symbols
+    (symbol "db-artwork:logo" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "logo" (at 0 6.35 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Value" "logo" (at 0 3.81 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.524 1.524)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.524 1.524)) hide)
+      )
+      (property "ki_description" "Placeholder for logo" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "logo_0_1"
+        (rectangle (start -2.54 2.54) (end 3.81 -2.54)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+      )
+    )
+  )
+
+
+  (symbol (lib_id "db-artwork:logo") (at 408.94 231.14 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 8265656b-b709-4747-8b6d-17bf4e28dfcd)
+    (property "Reference" "logo102" (at 406.4 224.79 0)
+      (effects (font (size 1.524 1.524)) (justify left))
+    )
+    (property "Value" "oshw-logo" (at 406.4 227.33 0)
+      (effects (font (size 1.524 1.524)) (justify left))
+    )
+    (property "Footprint" "db-artwork:oshw-logo_7.5mm" (at 408.94 231.14 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "" (at 408.94 231.14 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (instances
+      (project "template"
+        (path "/fb4944d4-14cb-4442-bdd4-299490901fb8"
+          (reference "logo102") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "db-artwork:logo") (at 396.24 231.14 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid b6a1a09d-6a39-4b4c-b40f-2313457e03db)
+    (property "Reference" "logo101" (at 393.7 224.79 0)
+      (effects (font (size 1.524 1.524)) (justify left))
+    )
+    (property "Value" "db-logo" (at 393.7 227.33 0)
+      (effects (font (size 1.524 1.524)) (justify left))
+    )
+    (property "Footprint" "db-artwork:db-logo_10mm" (at 397.51 234.95 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "" (at 396.24 231.14 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (instances
+      (project "template"
+        (path "/fb4944d4-14cb-4442-bdd4-299490901fb8"
+          (reference "logo101") (unit 1)
+        )
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
