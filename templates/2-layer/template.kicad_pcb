@@ -4,13 +4,13 @@
     (thickness 1.6)
   )
 
-  (paper "A4")
+  (paper "A")
   (title_block
     (date "2024-04-08")
     (company "db Electronics")
     (comment 1 "https://github.com/db-electronics")
     (comment 2 "Licensed Under CERN OHL v.1.2")
-    (comment 3 "Copyright 2023 René Richard")
+    (comment 3 "Copyright 2024 René Richard")
   )
 
   (layers
@@ -20,6 +20,8 @@
     (37 "F.SilkS" user "F.Silkscreen")
     (38 "B.Mask" user)
     (39 "F.Mask" user)
+    (40 "Dwgs.User" user "User.Drawings")
+    (41 "Cmts.User" user "User.Comments")
     (44 "Edge.Cuts" user)
     (45 "Margin" user)
     (46 "B.CrtYd" user "B.Courtyard")

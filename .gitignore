@@ -3,3 +3,6 @@ python/.idea
 
 # ignore pin output files from python script
 python/*.csv
+
+# ignore pycache when generating bom
+__pycache__

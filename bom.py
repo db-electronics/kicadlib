@@ -87,50 +87,13 @@ def writerow( acsvwriter, columns ):
         utf8row.append( str(col) )  # currently, no change
     acsvwriter.writerow( utf8row )
 
-# Output a set of rows as a header providing general information
-#writerow( out, ['Source:', net.getSource()] )
-#writerow( out, ['Date:', net.getDate()] )
-#writerow( out, ['Tool:', net.getTool()] )
-#writerow( out, ['Generator:', sys.argv[0]] )
-#writerow( out, ['Component Count:', len(components)] )
-#writerow( out, [] )
-#writerow( out, ['Individual Components:'] )
-#writerow( out, [] )                        # blank line
-#writerow( out, columns )
-
 # Output all the interesting components individually first:
 row = []
-#for c in components:
-#    del row[:]
-#    row.append('')                                      # item is blank in individual table
-#    row.append('')                                      # Qty is always 1, why print it
-#    row.append( c.getRef() )                            # Reference
-#    row.append( c.getValue() )                          # Value
-#    row.append( c.getLibName() + ":" + c.getPartName() ) # LibPart
-#    #row.append( c.getDescription() )
-#    row.append( c.getFootprint() )
-#    row.append( c.getDatasheet() )#
-
-    # from column 7 upwards, use the fieldnames to grab the data
-#    for field in columns[7:]:
-#        row.append( c.getField( field ) );
-#    writerow( out, row )
-
-
-#writerow( out, [] )                        # blank line
-#writerow( out, [] )                        # blank line
-#writerow( out, [] )                        # blank line
-
-#writerow( out, ['Collated Components:'] )
-#writerow( out, [] )                        # blank line
 writerow( out, columns )                   # reuse same columns
-
-
 
 # Get all of the components in groups of matching parts + values
 # (see kicad_netlist_reader.py)
 grouped = net.groupComponents(components)
-
 
 # Output component information organized by group, aka as collated:
 item = 0
@@ -151,16 +114,15 @@ for group in grouped:
     item += 1
     row.append( item )
     row.append( len(group) )
-    row.append( refs );
+    row.append( refs )
     row.append( c.getValue() )
-    #row.append( c.getLibName() + ":" + c.getPartName() )
     row.append( c.getPartName() )
-    row.append( net.getGroupFootprint(group) )
+    row.append( net.getGroupFootprint(group).split(':')[1] )
     row.append( net.getGroupDatasheet(group) )
 
     # from column 7 upwards, use the fieldnames to grab the data
     for field in columns[7:]:
-        row.append( net.getGroupField(group, field) );
+        row.append( net.getGroupField(group, field) )
 
     writerow( out, row  )
 

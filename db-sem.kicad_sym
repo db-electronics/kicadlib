@@ -4348,7 +4348,7 @@
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/AZ1117C.pdf" (at 29.21 9.525 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Supplier" "www.digikey.ca" (at 0 0 0)
+    (property "Supplier" "www.digikey.ca" (at 10.16 19.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Supplier Number" "AZ1117CH-3.3TRG1DICT-ND" (at 17.78 11.43 0)

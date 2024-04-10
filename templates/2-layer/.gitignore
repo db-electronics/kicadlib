@@ -16,6 +16,8 @@ _autosave-*
 *.sch-bak
 fp-info-cache
 *.lck
+*.bak
+*.bck
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -28,7 +30,7 @@ fp-info-cache
 *.xml
 
 # Local settings
-*.prl
+*.kicad_prl
 
 # local output folders
 *-backups/
