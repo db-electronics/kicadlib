@@ -34,3 +34,6 @@ fp-info-cache
 
 # local output folders
 *-backups/
+
+# zipped gerbers
+*.zip
